@@ -22,32 +22,32 @@ class PageController extends Controller
 {
     $username = $request->query('username', 'Pengguna');
 
-    $sepatu = [
-        [
-            'nama' => 'Nike Air Force 1',
-            'brand' => 'Nike',
-            'ukuran' => 39,
-            'harga' => 450000,
-            'kondisi' => 'Sangat Baik',
-            'status' => 'Tersedia'
-        ],
-        [
-            'nama' => 'Adidas Samba',
-            'brand' => 'Adidas',
-            'ukuran' => 40,
-            'harga' => 550000,
-            'kondisi' => 'Baik',
-            'status' => 'Tersedia'
-        ],
-        [
-            'nama' => 'Converse Chuck Taylor',
-            'brand' => 'Converse',
-            'ukuran' => 38,
-            'harga' => 300000,
-            'kondisi' => 'Baik',
-            'status' => 'Terjual'
-        ]
-    ];
+   $sepatu = [
+    [
+        'nama' => 'Nike Court Vision Low',
+        'brand' => 'Nike',
+        'ukuran' => 38,
+        'harga' => 250000,
+        'kondisi' => 'Sangat Baik',
+        'status' => 'Tersedia'
+    ],
+    [
+        'nama' => 'Adidas Gazelle Pink',
+        'brand' => 'Adidas',
+        'ukuran' => 37,
+        'harga' => 300000,
+        'kondisi' => 'Baik',
+        'status' => 'Tersedia'
+    ],
+    [
+        'nama' => 'Converse Run Star Hike',
+        'brand' => 'Converse',
+        'ukuran' => 39,
+        'harga' => 275000,
+        'kondisi' => 'Baik',
+        'status' => 'Terjual'
+    ]
+];
 
     return view('pengelolaan', compact('sepatu', 'username'));
 }
