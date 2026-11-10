@@ -1,4 +1,3 @@
-
 <nav style="background-color: #4b382e; padding: 20px;">
     <div style="width: 90%; max-width: 1100px; margin: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
 
